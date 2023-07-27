@@ -247,7 +247,11 @@ a {
   background-size: 50px 50px;
   opacity: 0.5;
 }
-
+.btn-links {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
 @keyframes animStar {
   from {
     transform: translateY(0);
@@ -330,14 +334,14 @@ a {
   }
 
   .images-social {
-    width: 2vw;
+    width: 2.3vw;
   }
 }
 @media (min-width: 700px) and (max-width: 999px) {
   .cardContainer {
-    width: 30vw;
+    width: 37vw;
     height: 37vh;
-    margin-left: -3em;
+    margin-left: -3=4em;
     margin-top: 12em;
   }
 
@@ -375,7 +379,7 @@ a {
   .cardContainer {
     width: 60vw;
     height: 37vh;
-    margin-left: -4em;
+    margin-left: -4.5em;
     margin-top: 12em;
   }
   body {
